@@ -1,0 +1,302 @@
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignRight {
+  float: right;
+  padding: 0px;
+}
+
+.alignLeft {
+  float: left;
+  padding: 0px;
+}
+
+.noTextDecoration {
+  text-decoration: none !important;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  position: relative;
+}
+
+#mainNavigationList {
+  min-width: 800px;
+  display: inline-block;
+  float: right;
+  margin: auto;
+  border: 3px solid green;
+}
+
+#mainHeader {
+  padding: 30px 60px 30px 150px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  max-height: 120px;
+  min-width: 400px;
+  max-width: 1200px;
+}
+
+#container {
+  background-color: #f0efef;
+  margin-bottom: 100px;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.23);
+  width: 1200px;
+  margin: auto;
+  margin-top: -60px;
+  margin-bottom: 100px;
+}
+
+#mainNavigation {
+  display: inline;
+}
+
+#navigationList {
+  font-size: 24px;
+  font-weight: 600 !important;
+  float: left;
+}
+
+#articleTop {
+}
+
+#topImage {
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  min-width: 960px;
+  max-height: 800px;
+  max-width: 1920px;
+  margin: auto;
+  background-image: url(../images/background_Blog_02.png);
+  background-color: rgb(40,40,40);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#articleTopText {
+  padding: 280px 200px 0px 200px;
+  text-align: center;
+  max-width: 1400px;
+  min-width: 800px;
+  margin: auto;
+  color: white;
+}
+
+#articleTopCopy {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#containerLeft {
+  width: 900px;
+  float: left;
+  padding-left: 150px;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+#bottomFooter {
+  background-color: rgb(40,40,40);
+  width: 1200px;
+  margin: auto;
+  height: 250px;
+  padding: 40px;
+}
+
+#socialMedia {
+  padding: 15px;
+  text-align: center;
+}
+
+#sideBar {
+  width: 250px;
+  text-align: left;
+  float: left;
+  padding: 80px 20px 20px 20px;
+}
+
+#sideNavigationItem1 {
+  width: 250px;
+  float: left;
+  text-align: left;
+}
+
+#sideNavigationItem2 {
+  padding: 40px 0px 40px 0px;
+  width: 250px;
+  float: left;
+  text-align: left;
+}
+
+#ad1 {
+  max-width: 250px;
+}
+
+.websiteTitle {
+  font-weight: 800 !important;
+  font-size: 40px;
+}
+
+.navigationLink {
+  color: white;
+  float: right;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.readMore {
+  text-decoration: none;
+}
+
+.navigationLink a:visited {
+  color: #f9e42e;
+  float: right;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+
+.navigationLink a:hover {
+  color: #DADADA;
+  float: right;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+
+.articleTitleTop {
+  font-size: 30px;
+  font-weight: 600 !important;
+  padding-bottom: -5px;
+  line-height: 36px;
+}
+
+.articleSubTitleTop {
+  font-size: 22px;
+  font-weight: 300 !important;
+  padding: 0px 0px 0px 0px;
+  line-height: 36px;
+  font-style: italic;
+}
+
+.article {
+  width: 700px;
+  padding-top: 40px;
+}
+
+.articleTitle {
+  font-size: 30px;
+  font-weight: 600 !important;
+  padding-bottom: 30px;
+  line-height: 36px;
+  float: right;
+
+}
+
+.sideBarHeading {
+  font-size: 24px;
+  font-weight: 600 !important;
+  color: black;
+  text-align: left;
+}
+
+.sideBarText {
+  font-size: 20px;
+  font-weight: 300!important;
+  color: black;
+  text-align: left;
+}
+
+.articleBody {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 300 !important;
+  font-size: 18px;
+}
+
+.articleLink {
+  padding: 20px 0px 20px 0px;
+  font-weight: 600 !important;
+  text-decoration: none;
+}
+
+.signUp {
+  background-color: #f9e42e ;
+  height: 120px;
+  padding-top: 28px;
+  width: 1200px;
+}
+
+.signUpButton {
+  background-color: #033048;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800 !important;
+  font-size: 18px;
+  color: white;
+  padding: 20px 50px 20px 50px;
+}
+
+.whiteText {
+  color: white;
+}
+
+.yellowText {
+  color: #f9e42e;
+}
+
+.copyright {
+  font-size: 12px;
+  position: 70%;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.socialMediaLink1 {
+  display: inline-block;
+  padding: 10px 10px 20px 10px;
+  text-decoration: none;
+}
+
+.socialMediaLink2 {
+  display: inline-block;
+  padding: 10px 10px 20px 10px;
+  text-decoration: none;
+}
+
+.readMoreTop {
+  text-decoration: none;
+}
