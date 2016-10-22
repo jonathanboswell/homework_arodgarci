@@ -1,0 +1,96 @@
+.alignLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+#mainHeader {
+  background: url(./images/main-page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
+#mainNav {
+  width: 100%;
+  background-color: rgba(200, 200, 200, .5);
+}
+
+#about {
+  width:40%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#container {
+  padding-top: 20px;
+}
+
+#menu {
+  top: 40%;
+}
+
+.navRightList {
+  list-style-type: none;
+  text-decoration: none;
+  float: right;
+  display: inline;
+  margin-top: 30px;
+  width: 60%;
+  padding-right: 40px;
+}
+
+.logoText {
+  float: left;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  margin: 20px;
+  padding-left: 40px;
+  width: 20%;
+}
+
+.navText {
+  text-decoration: none;
+  display: inline;
+  float: right;
+  color: white;
+  padding-right: 20px;
+  font-weight: 500 !important;
+  font-size: 20px;
+}
+
+.title {
+  font-weight: 300;
+  position-top: 50%;
+  font-size: 40px;
+}
+
+.text {
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.breakfastDescription {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.breakfastClass {
+  font-weight: 500;
+  font-size: 24px;
+}
