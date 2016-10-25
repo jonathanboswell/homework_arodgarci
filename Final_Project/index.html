@@ -1,16 +1,39 @@
+<!-- Make a logo out of SVGs. Logo will come in once the page is opened and settle in the center of the page. Once clicked, the page and logo will move up and align top and be replaced by the words "the robot house." Once the text "the robot house" comes in a nav bar will apear at the top with the logo that had previously moved being in the middle of it. On the left of the logo there will be an "about" page and a "gallery" page. One will then be able to scroll down and find information about the project. -->
 <!DOCTYPE html>
-<html>
-
 <head>
-  <title>Rock, Paper, Scissors</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<title>the robot house</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/snap.svg.js"></script>
+	<script src="/path/to/jquery.js"></script>
+    <script src="/path/to/jquery.panelSnap.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
-
 <body>
-    Music Website
-    <script src="js/index.js"></script>
+	<header id="mainHeader">
+		<nav id="mainNav">
+			<ul id="navLeft">
+				<li class="navLink"></li>
+			</ul>
+			<ul id="navRight">
+				<li class="navLink"></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="mainContainer">
+		<div id="robotHouse"><!--Image One with descriptive text-->
+			<object data="./svg/lettering_robot_house.svg"></object>
+		</div>
+		<div>
+			<div><!--Image Two-->
+			</div>
+			<div><!--Image Two-->
+			</div>
+			<div><!--Image Three-->
+			</div>
+		</div>
+	</div>
 </body>
-
+<script href="js/script.js"></script>
 </html>

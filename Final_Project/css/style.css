@@ -1,5 +1,10 @@
 body {
-  font-family: sans-serif;
-  margin: 3em;
-  padding: 0;
+  background-color: #2B2B2B;
+  height: 550px;
+}
+
+#robotHouse {
+	margin-top: 20%;
+	display:flex;
+	justify-content:center;
 }
