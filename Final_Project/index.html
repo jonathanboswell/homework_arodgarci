@@ -1,31 +1,65 @@
-<!-- Make a logo out of SVGs. Logo will come in once the page is opened and settle in the center of the page. Once clicked, the page and logo will move up and align top and be replaced by the words "the robot house." Once the text "the robot house" comes in a nav bar will apear at the top with the logo that had previously moved being in the middle of it. On the left of the logo there will be an "about" page and a "gallery" page. One will then be able to scroll down and find information about the project. -->
 <!DOCTYPE html>
 <head>
 	<title>the robot house</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/snap.svg.js"></script>
-	<script src="/path/to/jquery.js"></script>
-    <script src="/path/to/jquery.panelSnap.js"></script>
+	<script src="js/snap.svg-min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
-<body>
+<body class="backgroundContainer1">
 	<header id="mainHeader">
 		<nav id="mainNav">
 			<ul id="navLeft">
-				<li class="navLink"></li>
+				<a href="#"><li class="navLink floatLeft">contact</li><a>
 			</ul>
 			<ul id="navRight">
-				<li class="navLink"></li>
+				<a href="#"><li class="navLink floatRight">about</li><a>
 			</ul>
+			<div class="clearFloat"></div>
 		</nav>
 	</header>
-	<div id="mainContainer">
-		<div id="robotHouse"><!--Image One with descriptive text-->
-			<object data="./svg/lettering_robot_house.svg"></object>
+	<div id="mainContainer1">
+		<div id="robotHouse1"> <!--Image One with descriptive text-->
+			<svg id="robotText1" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0" width="540px" height="48px" xml:space="preserve">
+				<path id="T1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 2h21v6h-7v38H10"/>
+				<path id="H1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M47 46h-7V2h7v18M55 2h7v44h-7v-19h-8"/>
+				<path id="E1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M81 2h19v6H88v12h9v6h-9v13h12v6H81"/>
+				<path id="R1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M150 28v18h-7M143 2h10c7 0 10 3 10 10v3c0 5-1 7-5 9 3 1 5 5 5 9v7c0 2 0 4 1 5h-7"/>
+				<path id="O1" fill="#FFFFFF" d="M191 4c6 0 8 3 8 9v23c0 6-3 9-8 9s-8-3-8-9V13C183 7 186 4 191 4M191 2c-7 0-10 4-10 11v23c0 7 4 11 10 11s10-4 10-11V13C202 6 198 2 191 2L191 2z"/>
+				<path id="B1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M220 2h10c7 0 10 3 10 10v2c0 5-1 7-4 9 4 1 5 5 5 9v4c0 7-4 10-10 10h-11"/>
+				<path id="02" fill="#FFFFFF" d="M269 4c6 0 8 3 8 9v23c0 6-3 9-8 9 -6 0-8-3-8-9V13C261 7 263 4 269 4M269 2c-7 0-10 4-10 11v23c0 7 4 11 10 11 7 0 10-4 10-11V13C279 6 276 2 269 2L269 2z"/>
+				<path id="T2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M296 2h21v6h-7v38h-7"/>
+				<path id="H2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M366 46h-7V2h7v18M373 2h7v44h-7v-19h-8"/>
+				<path id="O3" fill="#FFFFFF" d="M409 4c6 0 8 3 8 9v23c0 6-3 9-8 9 -6 0-8-3-8-9V13C401 7 403 4 409 4M409 2c-7 0-10 4-10 11v23c0 7 4 11 10 11 7 0 10-4 10-11V13C419 6 416 2 409 2L409 2z"/>
+				<path id="U1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M451 2h7v33c0 7-4 11-10 11s-10-4-10-11V2h7"/>
+				<path id="S1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M488 33c-3-7-13-9-13-20 0-7 3-11 10-11 7 0 10 4 10 11v1h-7M496 35c0 7-3 11-10 11s-10-4-10-11v-3h7"/>
+				<path id="E2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M513 2h19v6h-12v12h9v6h-9v13h12v6h-19"/>
+			</svg>
 		</div>
-		<div>
+	</div>
+	<div id="mainContainer2">
+		<div id="topContainer2">
+			<div id="robotHouse2"> <!--Image One with descriptive text-->
+				<svg id="robotText2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0" viewBox="0 0 100% 100%" width="540px" height="48px" xml:space="preserve">
+					<path id="T1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 2h21v6h-7v38H10"/>
+					<path id="H1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M47 46h-7V2h7v18M55 2h7v44h-7v-19h-8"/>
+					<path id="E1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M81 2h19v6H88v12h9v6h-9v13h12v6H81"/>
+					<path id="R1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M150 28v18h-7M143 2h10c7 0 10 3 10 10v3c0 5-1 7-5 9 3 1 5 5 5 9v7c0 2 0 4 1 5h-7"/>
+					<path id="O1" fill="#FFFFFF" d="M191 4c6 0 8 3 8 9v23c0 6-3 9-8 9s-8-3-8-9V13C183 7 186 4 191 4M191 2c-7 0-10 4-10 11v23c0 7 4 11 10 11s10-4 10-11V13C202 6 198 2 191 2L191 2z"/>
+					<path id="B1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M220 2h10c7 0 10 3 10 10v2c0 5-1 7-4 9 4 1 5 5 5 9v4c0 7-4 10-10 10h-11"/>
+					<path id="02" fill="#FFFFFF" d="M269 4c6 0 8 3 8 9v23c0 6-3 9-8 9 -6 0-8-3-8-9V13C261 7 263 4 269 4M269 2c-7 0-10 4-10 11v23c0 7 4 11 10 11 7 0 10-4 10-11V13C279 6 276 2 269 2L269 2z"/>
+					<path id="T2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M296 2h21v6h-7v38h-7"/>
+					<path id="H2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M366 46h-7V2h7v18M373 2h7v44h-7v-19h-8"/>
+					<path id="O3" fill="#FFFFFF" d="M409 4c6 0 8 3 8 9v23c0 6-3 9-8 9 -6 0-8-3-8-9V13C401 7 403 4 409 4M409 2c-7 0-10 4-10 11v23c0 7 4 11 10 11 7 0 10-4 10-11V13C419 6 416 2 409 2L409 2z"/>
+					<path id="U1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M451 2h7v33c0 7-4 11-10 11s-10-4-10-11V2h7"/>
+					<path id="S1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M488 33c-3-7-13-9-13-20 0-7 3-11 10-11 7 0 10 4 10 11v1h-7M496 35c0 7-3 11-10 11s-10-4-10-11v-3h7"/>
+					<path id="E2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M513 2h19v6h-12v12h9v6h-9v13h12v6h-19"/>
+				</svg>
+				<p class="bodyText2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper eu ante ornare tincidunt. Sed faucibus elit eget nulla ornare feugiat. Vestibulum consectetur lacus in nisi dictum, vitae ultrices tellus porttitor. In molestie, lorem et sagittis suscipit, dolor erat ultricies lectus, non bibendum odio lectus sit amet libero. Nullam cursus lectus lorem, in tempor orci vestibulum eget. Sed eget ligula tortor. Nullam ultricies imperdiet ligula eu fermentum. Ut ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+			</div>
+		</div>
+		<div id="introDiv">
 			<div><!--Image Two-->
 			</div>
 			<div><!--Image Two-->
@@ -34,6 +68,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="./js/script_svg.js"></script>
+	<script src="./js/script.js"></script>
 </body>
-<script href="js/script.js"></script>
 </html>

@@ -1,10 +1,122 @@
-body {
-  background-color: #2B2B2B;
-  height: 550px;
+/* Global Classes */
+
+.backgroundContainer1 {
+	background-color: #2B2B2B;
 }
 
-#robotHouse {
-	margin-top: 20%;
-	display:flex;
-	justify-content:center;
+.backgroundContainer2 {
+	background-color: none;
+}
+
+.clearFloat {
+	clear: both;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+  overflow-x: hidden;
+}
+
+/* Main Container 1 */
+
+#mainContainer1 {
+	height: 100%;
+	z-index: 1;
+}
+
+#robotHouse1 {
+	position: absolute;
+	top:50%;
+	left:50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+#robotText1 {
+	cursor: pointer;
+}
+
+/* Main Container 2 */
+
+#mainHeader {
+  top: 0;
+	display: none;
+}
+
+#mainNav {
+  margin: 0 auto;
+	width: 100%;
+	padding: 20px;
+	height: 20px;
+	background-color: rgba(255,255,255, 1);
+}
+
+#navLeft {
+	padding-left: 40%;
+}
+
+#navRight {
+	padding-right: 40%;
+}
+
+#mainContainer2 {
+  height: 100%;
+	display: none;
+}
+
+#topContainer2 {
+  position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/intro_image.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#robotHouse2 {
+  position: relative;
+  top:50%;
+  left:50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+	background-color: rgba(141,141,141, .9);
+	padding: 130px;
+	width: 40%;
+  border: solid white .5%;
+}
+
+#robotText2 {
+	display: block;
+	margin: auto;
+}
+
+.robotTextContent2 {
+
+}
+
+.navLink {
+	text-decoration: none;
+	color: black;
+}
+
+.bodyText2{
+	padding-top: 40px;
+	font-weight: 100 !important;
+	text-align: center;
+	line-height: 150%;
+	font-size: 16px;
+	color: white;
 }
