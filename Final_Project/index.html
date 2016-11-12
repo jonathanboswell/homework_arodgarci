@@ -3,22 +3,13 @@
 	<title>the robot house</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="js/snap.svg-min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
-<body class="backgroundContainer1">
-	<header id="mainHeader">
-		<nav id="mainNav">
-			<ul id="navLeft">
-				<a href="#"><li class="navLink floatLeft">contact</li><a>
-			</ul>
-			<ul id="navRight">
-				<a href="#"><li class="navLink floatRight">about</li><a>
-			</ul>
-			<div class="clearFloat"></div>
-		</nav>
-	</header>
+<body>
 	<div id="mainContainer1">
 		<div id="robotHouse1"> <!--Image One with descriptive text-->
 			<svg id="robotText1" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0" width="540px" height="48px" xml:space="preserve">
@@ -39,9 +30,22 @@
 		</div>
 	</div>
 	<div id="mainContainer2">
+		<header id="mainHeader">
+			<nav id="mainNav">
+				<ul id="navMiddle">
+					<a href="#"><li class="navLink" value="home" id="home">home</li><a>
+					<li class="navLink">/</li>
+					<a href="#"><li class="navLink" value="process" id="process">process</li><a>
+					<li class="navLink">/</li>
+					<a href="#"><li class="navLink" value="diagrams" id="diagrams">diagrams</li><a>
+					<li class="navLink">/</li>
+					<a href="#"><li class="navLink" value="drawings" id="drawings">drawings</li><a>
+				</ul>
+			</nav>
+		</header>
 		<div id="topContainer2">
 			<div id="robotHouse2"> <!--Image One with descriptive text-->
-				<svg id="robotText2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0" viewBox="0 0 100% 100%" width="540px" height="48px" xml:space="preserve">
+				<svg id="robotText2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0" width="540px" height="48px" xml:space="preserve">
 					<path id="T1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 2h21v6h-7v38H10"/>
 					<path id="H1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M47 46h-7V2h7v18M55 2h7v44h-7v-19h-8"/>
 					<path id="E1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M81 2h19v6H88v12h9v6h-9v13h12v6H81"/>
@@ -56,19 +60,95 @@
 					<path id="S1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M488 33c-3-7-13-9-13-20 0-7 3-11 10-11 7 0 10 4 10 11v1h-7M496 35c0 7-3 11-10 11s-10-4-10-11v-3h7"/>
 					<path id="E2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M513 2h19v6h-12v12h9v6h-9v13h12v6h-19"/>
 				</svg>
-				<p class="bodyText2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper eu ante ornare tincidunt. Sed faucibus elit eget nulla ornare feugiat. Vestibulum consectetur lacus in nisi dictum, vitae ultrices tellus porttitor. In molestie, lorem et sagittis suscipit, dolor erat ultricies lectus, non bibendum odio lectus sit amet libero. Nullam cursus lectus lorem, in tempor orci vestibulum eget. Sed eget ligula tortor. Nullam ultricies imperdiet ligula eu fermentum. Ut ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+				<p class="introText white"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper eu ante ornare tincidunt. Sed faucibus elit eget nulla ornare feugiat. Vestibulum consectetur lacus in nisi dictum, vitae ultrices tellus porttitor. In molestie, lorem et sagittis suscipit, dolor erat ultricies lectus, non bibendum odio lectus sit amet libero. Nullam cursus lectus lorem, in tempor orci vestibulum eget. Sed eget ligula tortor. Nullam ultricies imperdiet ligula eu fermentum. Ut ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
 			</div>
 		</div>
-		<div id="introDiv">
-			<div><!--Image Two-->
+		<div class="clearFloat"></div>
+		<div id="container2">
+			<div id="processContent">
+				<div class="content">
+				<div class="blank">
+				</div>
+					<div class="fadeIn subContent negativeMargin">
+						<div class="">
+							<h3 class="bodyTitle white">process</h3>
+							<p class="bodyText white">It ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+						</div>
+					</div>
+					<img src="./images/process_image_1.png"/>
+					<div class="leftContent-fade">
+						<div class="leftContentText-fade">
+							<h3 class="bodyTitle black">motherboard</h3>
+							<p class="bodyText black">It ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+						</div>
+						<div class="leftContentImage floatLeft">
+							<img src="./images/process_image_2A.png"/>
+						</div>
+					</div>
+					<div class="rightContent-fade">
+						<div class="rightContentText-fade">
+							<h3 class="bodyTitle black">telegraph</h3>
+							<p class="bodyText black">It ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor.  Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+						</div>
+						<div class="rightContentImage floatRight">
+							<img src="./images/process_image_2B.png"/>
+						</div>
+					</div>
+					<img src="./images/process_image_3.png"/>
+				</div>
+				<div class="clearFloat"></div>
 			</div>
-			<div><!--Image Two-->
+			<div id="diagramsContent">
+				<div class="content">
+				<div class="blank">
+				</div>
+						<div class="fadeIn subContent negativeMargin">
+							<div class="">
+								<h3 class="bodyTitle white">diagrams</h3>
+								<p class="bodyText white">It ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+							</div>
+						</div>
+					<div class="leftContentText-click">
+						<h3 class="bodyTitle black">robot house components</h3>
+						<p class="bodyText black">It ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+					</div>
+					<div class="imageHolder">
+						<img src="./images/diagram_components_text.png" class="leftContentImage-fade-click"/>
+						<img src="./images/diagram_components.png" class="rightContentImage-fade-click floatRight pointer" />
+					</div>
+					<div class="clearFloat"></div>
+					<img src="./images/diagram_robot_arm.png"/>
+					<img src="./images/diagram_robot_path.png"/>
+					<img src="./images/diagram_structure.png"/>
+				</div>
 			</div>
-			<div><!--Image Three-->
+			<div id="drawingsContent">
+				<div class="content">
+				<div class="blank">
+				</div>
+					<div class="fadeIn subContent negativeMargin">
+						<div class="">
+							<h3 class="bodyTitle white">drawings</h3>
+							<p class="bodyText white">It ac turpis augue. Donec sagittis dictum elementum. Aenean feugiat, lacus id tristique molestie, nisi nunc laoreet mauris, vel tincidunt lectus purus at dolor. Mauris non vulputate mi, nec dapibus quam. Morbi lobortis vitae purus vehicula efficitur. Ut condimentum ullamcorper magna, at gravida ex congue sit amet.</p>
+						</div>
+					</div>
+					<img src="./images/floor_plan.png"/>
+					<img src="./images/robot_house_plans01.png" class="leftContentImage-fade01 floatLeft"/>
+					<img src="./images/robot_house_plans02.png" class="rightContentImage-fade01 floatRight"/>
+					<img src="./images/robot_house_plans03.png" class="leftContentImage-fade01 floatLeft"/>
+					<img src="./images/robot_house_plans04.png" class="rightContentImage-fade01 floatRight"/>
+					<img src="./images/sections_composite.png"/>
+				</div>
+				<div class="clearFloat"></div>
 			</div>
+			<footer id="footer">
+				<div id="copyright">
+					<h4 id="copyrightText" class="white">&copy; alejandro rodriguez-garcia</h4>
+				</div>
+			</footer>
 		</div>
 	</div>
-	<script src="./js/script_svg.js"></script>
+	<!--<script src="./js/script_svg.js"></script>-->
 	<script src="./js/script.js"></script>
 </body>
 </html>
